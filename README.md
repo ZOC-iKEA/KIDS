@@ -56,19 +56,21 @@ After downloading the source code and demo data, following files were included i
   
 ### Data Preparation
 
-- Data was split randomly to train, validation, and test datasets at a ratio: `data prep for CKD screening` and `data prep for CKD diagnosis`
-- Data cleaning of an external test dataset for the CKD diagnosis models: `kashi_data cleaning`
+- Data was split randomly to train, validation, and test datasets at a ratio: `data prep for CKD screening.py` and `data prep for CKD diagnosis.py`
+- Data cleaning of an external test dataset for the CKD diagnosis models: `kashi_data cleaning.py`
   
 ### Modeling
-- CKD screening modeling including data preprocessing and model development: `data` and `SNEfficient`
-- CKD progression modeling: `progression_prediction_modeling`
-- High percentage of sclerotic glomeruli (>=75%) modeling: `PSG_modeling`
+- CKD screening modeling including data preprocessing and model development: `data.py` and `SNEfficient.py`
+- CKD progression modeling: `progression_prediction_modeling.py`
+- High percentage of sclerotic glomeruli (>=75%) modeling: `PSG_modeling.py`
   
 ### Prediction
 You can use the provided `pred` scripts to perform predictions on either the included demo dataset or your own input data. These scripts are designed to:
 
+
 1. Read  input data (images and/or clinical data)
 2. Perform necessary preprocessing (image croping, resizing, normalization, etc.)
+   **Note:** Core data preprocessing functions are now organized in the `ckdfunctions.py` module for better reusability and clarity.
 3. Load pretrained models corresponding to different prediction tasks
 4. Execute predictions
 5. Save output results in structured format (CSV)
@@ -137,7 +139,7 @@ KIDS models were also deployed on the [zockids website](https://zockids.gzzoc.co
   
 ## Application
   
-Source code and de-identified participant data of KIDS will be provided upon reasonable request by signing the [KIDS_Access_Form](https://github.com/user-attachments/files/16519892/KIDS_Access_Form.pdf ) and [License_for_KIDS_Code](https://github.com/user-attachments/files/16519893/License_for_KIDS_Code.pdf ). Please provide appropriate protocols, analysis plans, and data exchange plans and require institutional approval prior to transmitting any information contained in the data.  Requests should be directed to the lead corresponding author (linht5@mail.sysu.edu.cn). Submitted license and data access forms will be evaluated by the data manager.
+Source code and de-identified participant data of KIDS will be provided upon reasonable request by signing the [KIDS_Access_Form](https://github.com/user-attachments/files/16519892/KIDS_Access_Form.pdf ) and [License_for_KIDS_Code](https://github.com/user-attachments/files/16519893/License_for_KIDS_Code.pdf ). Please provide appropriate protocols, analysis plans, and data exchange plans and require institutional approval prior to transmitting any information contained in the data. Requests should be directed to the lead corresponding author (linht5@mail.sysu.edu.cn). Submitted license and data access forms will be evaluated by the data manager, and will be responded to within one month.
   
   
 ## Contact
