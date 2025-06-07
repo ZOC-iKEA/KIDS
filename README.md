@@ -139,8 +139,8 @@ KIDS models were also deployed on the [zockids website](https://zockids.gzzoc.co
   
 ## Application
   
-Source code and de-identified participant data of KIDS will be provided upon reasonable request by signing the [KIDS_Access_Form](https://github.com/user-attachments/files/16519892/KIDS_Access_Form.pdf ) and [License_for_KIDS_Code](https://github.com/user-attachments/files/16519893/License_for_KIDS_Code.pdf ). Please provide appropriate protocols, analysis plans, and data exchange plans and require institutional approval prior to transmitting any information contained in the data. Requests should be directed to the lead corresponding author (linht5@mail.sysu.edu.cn). Submitted license and data access forms will be evaluated by the data manager, and will be responded to within one month.
-  
+Source code and de-identified participant data of KIDS will be provided upon reasonable request by signing the [KIDS_Access_Form](https://github.com/user-attachments/files/16519892/KIDS_Access_Form.pdf ) and [License_for_KIDS_Code](https://github.com/user-attachments/files/16519893/License_for_KIDS_Code.pdf ). Please provide appropriate protocols, analysis plans, and data exchange plans and require institutional approval prior to transmitting any information contained in the data. Requests should be directed to the lead corresponding author (linht5@mail.sysu.edu.cn). Submitted license and data access forms will be evaluated by the data manager, and responded within one month.
+
   
 ## Contact
 In addition, we would like to hear from you. Please let us know if you have any comments or suggestions, or if you have any questions about the code or the project.
